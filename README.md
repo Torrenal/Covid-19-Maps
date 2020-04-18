@@ -15,10 +15,10 @@ that the differences arn't important.  If it's painting an area in red where the
 ## How to read the maps:
 Unless otherwise noted, brighter colors = higher counts, and the scale used behind the scenes is a variation of the log scale.
 
+Maps in their respective folders will have respective READMEs, consult them for notes on using the maps.
+
 ## Defects
 Broken borders - The data set has county-level detail, and I don't have a mask of the country's borders to use.  I'm using a naive algorithm to feel out those borders, but it's neither precision nor perfect.  It's doing good work, but a replacement is needed.  Until that happens, if you have your own borders you want to provide, you can strip out the mask I'm using and apply your own.  Details for that are in the README with the maps.
-
-Maps in their respective folders will have respective READMEs, consult them for notes on using the maps.
 
 ## Todo list:
 * Fix holes in the map.  Just having a high res mask of the US using the equirectangular projection would be great, but I may need to just directly mark all the respective regions as "In Bounds" and "Out of Bounds".
