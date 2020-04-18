@@ -12,14 +12,18 @@ There's a single 'us-deaths.png' which is an APNG animation of the individual sl
  Projection: Equirectangular Projection.
  
 You can view these images by adding them to a KML file with the above coordinates, or by adding them
-as an Image Overlay at those locations in Google Maps Pro (These assume an equirectangular projection).
+as an Image Overlay at those locations in Google Maps Pro (These by default assume an equirectangular projection, thus have no issues displaying the images with correct stretching).
 
-For the time being, areas without sufficient data to plot are rendered as transparent.  This may change based on needs.
+## The border
+For the time being, an approximate border mask is used, the bulk of it is derived by a naieve algorythm on the fly, which makes assumptions about the border based on the data it's processing.  
+### Replacing the border mask
+The raw output is all in the image, to access it you just need to reset the Alpha channel.  GIMP's Colors->Curves function may suffice for the task.  Once the mask is off, you are free to replace it with your own.
 
 Legend (to be created)
-Color coding is black-red, with black being no cases and full-red (0xFF0000) being 1/4 of the way the up the full scale.  The top of the 
-scale is presently uncolored (no data currently being rendered reaches it). Future work may require extending the scale
-into other colors (TBD).
+Color coding is black-red-yellow-???-???, with black being no cases and full-red (0xFF0000) being 1/4 of the way the up the full scale.  The halfway point is full yellow (0xFFFF00)  The top half of the scale is presently uncolored (no data currently being rendered reaches it), but the scale will be extended if the need arises.
+
+## Reading the map
+The map is created from county-level data, so don't try looking for detail smaller than counties.  The strength of this map is that it's easier to grasp what's occurring over time with an animation than with most other maps plotting this data.  
 
 ## Scale Math
 Get the deathsRate into the format of deaths/saturationCount.
@@ -28,6 +32,3 @@ our purposes here a fatality rate of 1% is assumed, so we have effectively:
  DeathRate = deaths/(Population/100)
 Then we apply log scaling to the calculated DeathRate.  If it's below 0.5, we take the log deathRate and normalize between 0 and .5
 If it's over .5, we subtract it from 1, take the log, and normalize between .5 and 1.
-
-
-
