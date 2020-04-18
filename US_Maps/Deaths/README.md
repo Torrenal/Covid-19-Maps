@@ -23,7 +23,7 @@ Legend (to be created)
 Color coding is black-red-yellow-???-???, with black being no cases and full-red (0xFF0000) being 1/4 of the way the up the full scale.  The halfway point is full yellow (0xFFFF00)  The top half of the scale is presently uncolored (no data currently being rendered reaches it), but the scale will be extended if the need arises.
 
 ## Reading the map
-The map is created from county-level data, so don't try looking for detail smaller than counties.  The strength of this map is that it's easier to grasp what's occurring over time with an animation than with most other maps plotting this data.  
+The map is created from county-level data, so don't try looking for detail smaller than counties.  The strength of this map is that it's easier to grasp what's occurring over time with an animation than with most other maps that I've seen plotting this data.  
 
 ## Scale Math
 Get the deathsRate into the format of deaths/saturationCount.

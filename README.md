@@ -7,36 +7,38 @@ Work in progress, please mind the dust.
 ## About the map style:
 * Short form: They're heat maps.  
 * Medium form: They're smoothed plots of their specific data sets.
-* Long form: They're not what I'd call heat maps, rather they are answering a specific question, and most typical uses of this method yield heat maps.
-In the context of an 'active covid cases plot', think of maps as answering the question of "Where are the people who should be aware of or concerned about people in the public being infectious?"
-This question is subtly different from "Where are people sick?".  If you look close enough at the county level details you may be able to spot where the two give different answers, but for a basic, broad-picture view, the answers to the two questions are the close enough
-that the differences arn't important.  If it's painting an area in red where there arn't infected people, the people in that area are probably concerned about, or directly impacted by the nearest sick populations.
+* Long form: The plots are each answering a specific question.  In that sense, they're not automatically heat maps... but most typical uses of those tools produce heat maps.  At present, I don't forsee anything other than heat maps appearing in this project.
+In the context of an 'active covid cases plot', think of these maps as answering the question of "Where are the people who should be aware of or concerned about people in the public being infectious?"
+This question is subtly different from "Where are people sick?".  If you look close enough at the county level rendering and the raw data you may be able to spot where the two give different answers, but for a basic, broad-picture view, the answers to the two questions are close enough
+that the differences arn't important.  If it's painting an area in red where there arn't infected people, the people in that area are probably concerned about, or directly impacted by the nearest sick populations - either by actively providing support or sheltering indoors to avoid getting caught up.
 
 ## How to read the maps:
 Unless otherwise noted, brighter colors = higher counts, and the scale used behind the scenes is a variation of the log scale.
 
-Holes in the maps?  Sort of?  The data set has county-level detail.  The counties in the western US are large enough and sometimes just oddly shaped enough they're causing the coast-detection logic I'm using to see "ocean".  It's on the 'Must fix' list.  This plot style was developed to deal 
-with huge data sets for which normal plotting yielded the "noise" of "too much information".  Having a 'too few data points' is a bit novel for me.
+## Defects
+Holes in the maps?  Sort of?  The data set has county-level detail.  The counties in the western US are large enough and sometimes just oddly shaped enough they're causing the coast-detection logic I'm using to see "ocean".  It's high on my 'Must fix' list.  This plot style was developed to deal with huge data sets for which normal plotting yielded unreadable plots from simply having "too much information".  Having a problem of 'too few data points' is novel for me.
 
 Maps in their respective folders will have respective READMEs, consult them for notes on using the maps.
 
 ## Todo list:
 * Fix holes in the map.  Just having a high res mask of the US using the equirectangular projection would be great, but I may need to just directly mark those regions as "In Bounds".
 * Automate all the things.  I'm lazy, I'd like programs to build and update the maps for me.  That's fine, I'm good at automating things, but like all tasks, automation takes effort, and effort needs time.
-* More maps - the point of this project isn't to show the bad, but it had to start somewhere.  More maps is where this project will hit its primary goals.
+* More maps - the point of this project isn't to show the bad, but it had to start somewhere, and a plot of the raw data is an easy starting point.  More maps is where this project will hit its primary goals.
 
 ## Suggestions
-I'm open to suggestions, just open issues with them.  If they include reasonable solutions, there's a better chance 
-of them being implemented.
+I'm open to suggestions, just open issues with them.  If they include reasonable solutions and add true value, there's a better chance of them being implemented.  That said, time is limited, and I have ultimate goals picked out for this project, I may well turn down ideas if they need alot of effort and don't bring me towards my goals.
 
 ## Data Source
 https://github.com/datasets/covid-19
 
 ## License
 
-These images are licensed under the Open Data Commons [Public Domain and Dedication License][pddl].
+Like their data source, these images are licensed under the Open Data Commons [Public Domain and Dedication License][pddl].
 
 [pddl]: https://www.opendatacommons.org/licenses/pddl/1-0/
+
+Basically, as public domain data went into making these, I consider them public domain.  Mentions, while nice, arn't necessary.
+The tools that make them however are my private creations and are not being put in the public domain at this time.
 
 ## Older work with the same plot style 
 http://www.torrenal.com/Census/ - Some of the content here no longer works - YMMV
