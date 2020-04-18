@@ -2,7 +2,7 @@
 
 Work in progress, please mind the dust.
 
-![US Map, raw](us-deaths-small.png) ![US Map](us-deaths-small-ge.png)
+![US Map, raw](us-deaths-small.png)
 
 ## About the map style:
 * Short form: They're heat maps.  
@@ -22,8 +22,8 @@ Maps in their respective folders will have respective READMEs, consult them for 
 
 ## Todo list:
 * Fix holes in the map.  Just having a high res mask of the US using the equirectangular projection would be great, but I may need to just directly mark those regions as "In Bounds".
-* Automate all the things.  I'm lazy, I'd like programs to build and update the maps for me.  That's fine, I'm good at automating things, but like all tasks, automation takes time.
-* More maps - the point of this project isn't to show the bad, but it had to start somewhere.  More maps is where this project will hit it's goals.
+* Automate all the things.  I'm lazy, I'd like programs to build and update the maps for me.  That's fine, I'm good at automating things, but like all tasks, automation takes effort, and effort needs time.
+* More maps - the point of this project isn't to show the bad, but it had to start somewhere.  More maps is where this project will hit its primary goals.
 
 ## Suggestions
 I'm open to suggestions, just open issues with them.  If they include reasonable solutions, there's a better chance 
