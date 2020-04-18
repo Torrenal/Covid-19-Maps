@@ -14,11 +14,10 @@ There's a single 'us-deaths.png' which is an APNG animation of the individual sl
 You can view these images by adding them to a KML file with the above coordinates, or by adding them
 as an Image Overlay at those locations in Google Maps Pro (These assume an equirectangular projection).
 
-For the time being, areas without sufficient data to plot are rendered as transparent.  This may change based on needs.
+Borders are currently autodetected and "outside" regions are rendered as transparent.  This may change based on needs.
 
 Legend (to be created)
-Color coding is black-red, with black being no cases and full-red (0xFF0000) being 1/4 of the way the up the full scale.  The top of the 
-scale is presently uncolored (no data currently being rendered reaches it). Future work may require extending the scale
+Color coding is black to red, with black being no cases and full-red (0xFF0000) being 1/4 of the way the up the scale.  The top of the scale is presently uncolored (no data currently being rendered reaches it). Future work may require extending the scale
 into other colors (TBD).
 
 ## Scale Math
