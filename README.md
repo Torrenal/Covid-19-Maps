@@ -7,10 +7,9 @@ Work in progress, please mind the dust.
 ## About the map style:
 * Short form: They're heat maps.  
 * Medium form: They're smoothed plots of their specific data sets.
-* Long form: The plots are each answering a specific question.  In that sense, they're not automatically heat maps... but most typical uses of those tools produce heat maps.  At present, I don't forsee anything other than heat maps appearing in this project.
+* Long form: The plots are each answering a specific question.  In that sense, they're not automatically heat maps... but most typical uses of those tools produce heat maps.  The  naieve coast-finding logic this is using to plot the edges of the US is an application of the same process that doesn't pressent as a heat map.
 In the context of an 'active Covid cases plot', think of these maps as answering the question of "Where are the people who should be aware of or concerned about people in the public being infectious?"
-This question is subtly different from "Where are people sick?".  If you look close enough at the county level rendering and the raw data you may be able to spot where the two give different answers, but for a basic, broad-picture view, the answers to the two questions are close enough
-that the differences arn't important.  If it's painting an area in red where there arn't infected people, the people in that area are probably concerned about, or directly impacted by the nearest sick populations - either by actively providing support or sheltering indoors to avoid getting caught up.
+This question is subtly different from "Where are people sick?".  If you look close enough at the county level rendering and the raw data you may be able to spot where the two give different answers, but for a basic, broad-picture view, the answers to the two questions are close enough that the differences arn't important.  If it's painting an area in red where there arn't infected people, the people in that area are probably concerned about, or directly impacted by the nearest sick populations - either by actively providing support or sheltering indoors to avoid getting caught up.
 
 ## How to read the maps:
 Unless otherwise noted, brighter colors = higher counts, and the scale used behind the scenes is a variation of the log scale.
