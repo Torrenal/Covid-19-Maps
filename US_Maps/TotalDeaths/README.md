@@ -1,4 +1,4 @@
-#Total Deaths
+# Total Deaths
 
 ![US Map, New Deaths](../../us-new-deaths7-small.png)
 
