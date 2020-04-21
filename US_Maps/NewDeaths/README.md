@@ -1,5 +1,7 @@
 # New Deaths plots
 
+![US Map, New Deaths](../../us-new-deaths7-small.png)
+
 This plot represents the current rate of new deaths across the country.
 
 These plots are of the format: Deaths in past N days / Population
