@@ -1,3 +1,7 @@
+#Total Deaths
+
+![US Map, New Deaths](../../us-new-deaths7-small.png)
+
 Deaths are plotting with a quasi-log scale, aiming to not lose detail for any data that is in-range.
 
 The images here plot Deaths over Population.  Functionally, what's being rendered is:
