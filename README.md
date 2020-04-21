@@ -2,7 +2,7 @@
 
 Work in progress, please mind the dust.
 
-![US Map, raw](us-deaths-small.png)
+![US Map, Total Deaths](us-deaths-small.png)  ![US Map, New Deaths](us-new-deaths7-small.png)
 
 ## About the map style:
 * Short form: They're heat maps.  
