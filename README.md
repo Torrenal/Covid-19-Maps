@@ -2,17 +2,15 @@
 
 Work in progress, please mind the dust.
 
-![US Map, Total Deaths](us-deaths-small.png)  ![US Map, New Deaths](us-new-deaths7-small.png)
+![US Map, Total Deaths](us-deaths-small.png)  ![US Map, New Deaths](us-new-deaths7-small.png) ![US Map, Doubling Rates](us-doubling-rates-small.png)
 
 ## About the map style:
-* Short form: They're heat maps.  
+* Short form: They're (mostly) heat maps.  
 * Medium form: They're smoothed plots of their specific data sets.
-* Long form: The plots are each answering a specific question.  In that sense, they're not automatically heat maps... but most typical uses of those tools produce heat maps.  The  naieve coast-finding logic this is using to plot the edges of the US is an application of the same process that doesn't pressent as a heat map.
-In the context of an 'active Covid cases plot', think of these maps as answering the question of "Where are the people who should be aware of or concerned about people in the public being infectious?"
-This question is subtly different from "Where are people sick?".  If you look close enough at the county level rendering and the raw data you may be able to spot where the two give different answers, but for a basic, broad-picture view, the answers to the two questions are close enough that the differences arn't important.  If it's painting an area in red where there arn't infected people, the people in that area are probably concerned about, or directly impacted by the nearest sick populations - either by actively providing support or sheltering indoors to avoid getting caught up.
+* Long form: The plots are each answering a specific question.  Most typical uses of those tools produce heat maps - for example, if I wanted a proper map of "what kind of iris flower is this?", I'd take the classic iris data set, plot it using this, and then use the colored areas as guides for identifying which flower I had.  "Well, that heigh/width is clearly in the red region, it's setosa.  By rendering thigns as regions rather than points, this declutters the plot, it removes the noise as it were to let you see the signal.  The  naieve coast-finding logic this is using to plot the edges of the US is an application of the same process, and that doesn't present as a heat map.  Using similar logic is the doubling-rates plot.
 
 ## How to read the maps:
-Unless otherwise noted, brighter colors = higher counts, and the scale used behind the scenes is a variation of the log scale.
+Notes on how to read the maps are with each plot, basic: Black = no nearby cases, and then typically from dark to light aas counts go up.  The plots working on # of deaths use a variation of the log scale so as not to lose the shape of the data due simply to the scale of the nubmers involved, be they large or small.
 
 Maps in their respective folders will have respective READMEs, consult them for notes on using the maps.
 
@@ -22,7 +20,7 @@ Broken borders - The data set has county-level detail, and I don't have a mask o
 ## Todo list:
 * Fix holes in the map.  Just having a high res mask of the US using the equirectangular projection would be great, but I may need to just directly mark all the respective regions as "In Bounds" and "Out of Bounds".
 * Automate all the things.  I'm lazy, I'd like programs to build and update the maps for me.  That's fine, I'm good at automating things, but like all tasks, automation takes effort, and effort needs time.
-* More maps - the point of this project isn't to show the bad in the world, but it had to start somewhere, and a plot of the raw data is an easy starting point.  More maps is where this project will hit its primary goals.  
+* More maps - I've got the maps I wanted to make, but that doesn't mean there arn't other, more useful maps  to make.
 
 ## Suggestions
 I'm open to suggestions, just open issues with them.  If they include reasonable solutions and add true value, there's a better chance of them being implemented.  That said, time is limited, and I have ultimate goals picked out for this project, I may well turn down ideas if they need a lot of effort and don't bring me towards my goals.
