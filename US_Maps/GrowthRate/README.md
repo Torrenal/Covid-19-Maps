@@ -1,6 +1,6 @@
 # Growth Rate plots
 
-![US Map, Growth Rate](../../../us-doubling-rates-small.png)
+![US Map, Growth Rate](../../us-doubling-rates-small.png)
 
 This plot represents the current growth/decline of Covid related deathsacross the country.
 
