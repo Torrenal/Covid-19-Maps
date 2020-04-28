@@ -2,6 +2,7 @@
 
 Work in progress, please mind the dust.
 
+![US Map, Total Cases](us-cases-small.png)
 ![US Map, Total Deaths](us-deaths-small.png)  ![US Map, New Deaths](us-new-deaths7-small.png) ![US Map, Doubling Rates](us-doubling-rates-small.png)
 
 ## About the map style:
