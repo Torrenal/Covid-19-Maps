@@ -1,6 +1,6 @@
 # Total Deaths
 
-![US Map, New Deaths](../../us-deaths-small.png)
+![US Map, Total Deaths](../../us-deaths-small.png)
 
 Deaths are plotting with a quasi-log scale, aiming to not lose detail for any data that is in-range.
 
