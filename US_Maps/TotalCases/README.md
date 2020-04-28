@@ -7,7 +7,7 @@ Cases are plotting with a quasi-log scale, aiming to not lose detail for any dat
 The images here plot Cases, and are population normalized. Functionally, what's being rendered is:
  Value = Cases / Population
  
-This map is in a 'Draft' state - By all means view it, but take it with a grain of salt - it's literally just been created and  still needs to be reviewed for accuracy.  It's probably OK, but "probably OK" isn't good enough for me.
+This map is in a 'Draft' state - By all means view it, but take it with a grain of salt - it's literally just been created and  still needs to be reviewed for accuracy.  It's probably OK, but "probably OK" isn't considered anything more than a draft version.
 
 The raw stills for each date are named us-cases-####.png
 There's a single 'us-cases.png' which is an APNG animation of the individual slides.
