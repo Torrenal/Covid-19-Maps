@@ -1,6 +1,6 @@
 # Growth Rate plots
 
-![US Map, Growth Rate](../../us-doubling-rates-small.png)
+![US Map, Growth Rate](../../us-doubling-rates-deaths-small.png)
 
 This plot represents the current growth/decline of Covid related deaths across the country.  Unlike the other maps, these are not population normalized.
 
