@@ -3,6 +3,7 @@
 Work in progress, please mind the dust.
 
 ![US Map, Total Cases](us-cases-small.png) ![US Map, New Cases](us-new-cases7-small.png) ![US Map, Case Doubling Rates](us-doubling-rates-cases-small.png)
+
 ![US Map, Total Deaths](us-deaths-small.png)  ![US Map, New Deaths](us-new-deaths7-small.png) ![US Map, Death Doubling Rates](us-doubling-rates-deaths-small.png)
 
 ## About the map style:
