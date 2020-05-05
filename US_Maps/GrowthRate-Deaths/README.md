@@ -2,7 +2,7 @@
 
 ![US Map, Growth Rate](../../us-doubling-rates-deaths-small.png)
 
-This plot represents the current growth/decline of Covid related deaths across the country.  Unlike the other maps, these are not population normalized.
+This plot represents the current growth/decline of Covid related deaths across the country.  Unlike the other maps, these are not population normalized. They are instead weighted by population.
 
 These plots are of the format: 
 Old Deaths = total deaths 7 days ago - total deaths 14 days ago.
@@ -35,7 +35,6 @@ For the time being, an approximate border mask is used, the bulk of it is derive
 The raw output is all in the image, to access it you just need to reset the Alpha channel.  GIMP's Colors->Curves function may suffice for the task.  Once the mask is off, you are free to replace it with your own.
 
 ## Notes
-* I've had to adjust how I weight the data by distance from how the other plots do it.  While I think it's mostly a fair outcome, I'm not happy with how New York City presents, essentially as a splotch over it's region.  I've not looked more closely at that, but if it's like past things I've examined, its a good chance that's just what the data is doing.  Review warranted.
-* The source data has death counts that go "backwards".  ie: There were a grand total of 30 people killed to date as of last week, and as of today that total has gone down(?!?) to 14.  Either 16 people came back to life, or there's something off in the data.  Occurrences of people "returning-to-life" are filtered out of this plot.
-* Theres a 'previous 7 days' plot and a 'previous 3 days' plot.  Some people are used to seeing things that sumarize 3-day periods, and 7 day periods don't have artifacts from including/excluding different days of the week from one plot to the next.
-
+* I've had to adjust how I weight the data by distance from how the other plots do it.  While I think it's mostly a fair outcome, I'm not happy with how New York City presents, essentially as a splotch over it's region.  I've not looked more closely at that, but if it's like past things I've examined, its a good chance that the data is mostly doing exactly what it's showing, give or take some heavy 'smoothing' effects near the fringes.  Review warranted.
+* The source data has death counts that go "backwards".  ie: There were a grand total of 30 people killed to date as of last week, and as of today that total has gone down(?!?) to 14.  Either 16 people came back to life, or there's something off in the data.  Occurrences of people "returning-to-life" are filtered out of this plot, but some effects may linger.
+* This uses a 7 day window to make the comparison.  Some people are used to seeing things that sumarize 3-day periods, but the larger 7 day window minimizes daily variance, and eliminates the influence from the day of the week.
