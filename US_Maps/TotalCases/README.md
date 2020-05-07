@@ -21,7 +21,5 @@ There's a single 'us-cases.png' which is an APNG animation of the individual sli
 You can view these images by adding them to a KML file with the above coordinates, or by adding them
 as an Image Overlay at those locations in Google Maps Pro (These by default assume an equirectangular projection, thus have no issues displaying the images with correct stretching).
 
-## The border
-For the time being, an approximate border mask is used, the bulk of it is derived by a naieve algorythm on the fly.  It makes  assumptions about the border based on the data it's processing.  
 ### Replacing the border mask
 The raw output is all in the image, to access it you just need to reset the Alpha channel.  GIMP's Colors->Curves function may suffice for the task.  Once the mask is off, you are free to replace it with your own.
