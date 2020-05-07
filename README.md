@@ -20,15 +20,17 @@ Maps in their respective folders will have respective READMEs, consult them for 
 Broken borders - The data set has county-level detail, and I don't have a mask of the country's borders to use.  I'm using a naive algorithm to feel out those borders, but it's neither precision nor perfect.  It's doing good work, but a replacement is needed.  Until that happens, if you have your own borders you want to provide, you can strip out the mask I'm using and apply your own.  Details for that are in the README with the maps.
 
 ## Todo list:
-* Fix holes in the map.  Just having a high res mask of the US using the equirectangular projection would be great, but I may need to just directly mark all the respective regions as "In Bounds" and "Out of Bounds".
+* Add state outlines.
 * Automate all the things.  I'm lazy, I'd like programs to build and update the maps for me.  That's fine, I'm good at automating things, but like all tasks, automation takes effort, and effort needs time.
 * More maps - I've got the maps I wanted to make, but that doesn't mean there arn't other, more useful maps  to make.
 
 ## Suggestions
 I'm open to suggestions, just open issues with them.  If they include reasonable solutions and add true value, there's a better chance of them being implemented.  That said, time is limited, and I have ultimate goals picked out for this project, I may well turn down ideas if they need a lot of effort and don't bring me towards my goals.
 
-## Data Source
-https://github.com/datasets/covid-19
+## Data Sources
+https://github.com/datasets/covid-19 - Covid case data
+
+https://www.census.gov - Shapes of places
 
 ## License
 
