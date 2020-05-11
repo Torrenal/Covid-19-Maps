@@ -16,9 +16,6 @@ Notes on how to read the maps are with each plot, basic: Black = no nearby cases
 
 Maps in their respective folders will have respective READMEs, consult them for notes on using the maps.
 
-## Defects
-Broken borders - The data set has county-level detail, and I don't have a mask of the country's borders to use.  I'm using a naive algorithm to feel out those borders, but it's neither precision nor perfect.  It's doing good work, but a replacement is needed.  Until that happens, if you have your own borders you want to provide, you can strip out the mask I'm using and apply your own.  Details for that are in the README with the maps.
-
 ## Todo list:
 * Add state outlines.
 * Automate all the things.  I'm lazy, I'd like programs to build and update the maps for me.  That's fine, I'm good at automating things, but like all tasks, automation takes effort, and effort needs time.
