@@ -26,6 +26,11 @@ I'm open to suggestions, just open issues with them.  If they include reasonable
 
 ## Data Sources
 https://github.com/datasets/covid-19 - Covid case data
+While it's a handy data set to have, it may not be ideal for production use - they keep making changes to it that upset my own scripts.
+  - Used different coordinates for the same points in the deaths and cases files
+  - Restructured the data files
+  - Stoped updating the master branch.  They now updatet the 'main' branch.  The master branch remains, but has data current as of 12-31-2020.
+  T.T
 
 https://www.census.gov - Shapes of places
 
